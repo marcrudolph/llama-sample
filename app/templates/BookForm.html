@@ -1,0 +1,9 @@
+<form name="BookForm">
+    <h2 ng-show="BookForm.$invalid">Invalid Form!</h2>
+    <input type="text" name="title" ng-model="book.title" class="form-control" required/>
+    <span ng-show="BookForm.title.$invalid">Bitte ein korrekten Title eingeben</span>
+    <input type="text" name="abstract" ng-model="book.abstract" class="form-control" required/>
+    <span ng-show="BookForm.abstract.$invalid">Bitte ein korrektest Abstract eingeben</span>
+    <input type="text" name="isbn" ng-model="book.isbn" class="form-control" required ng-minlength="5"/>
+    <span ng-show="BookForm.isbn.$invalid">Bitte eine ISBN eingeben</span>
+</form>

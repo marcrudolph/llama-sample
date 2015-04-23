@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "authors": [
+    "Robin Böhm <robin.boehm@symetics.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-messages": "1.3.0",
+    "angular-i18n": "1.3.0",
+    "angular": "1.3",
+    "angular-mocks": "1.3.0",
+    "angular-touch": "1.3.0",
+    "angular-route": "1.3",
+    "bootstrap": "3.2.0",
+    "jquery": "2.1.1",
+    "robinboehm.colorpicker": "0.0.1"
+  }
+}
