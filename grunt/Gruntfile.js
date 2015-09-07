@@ -7,13 +7,13 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		esteWatch: {
 			options: {
-				dirs: ['../source/**/']
+				dirs: ['../frontend/source/**/']
 			},
 			'*': function() { return ['sync'] }			
 		},
 		sync: {
 			output: {
-				cwd: '../source',
+				cwd: '../frontend/source',
 				src: ['**', '!**/*.less', '!less' ],
 				dest: 'output/'
 			}
