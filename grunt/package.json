@@ -1,0 +1,12 @@
+{
+  "name": "thegrunt",
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-connect-proxy": "^0.2.0",
+    "grunt-contrib-connect": "*",
+    "grunt-este-watch": "*",
+    "grunt-sync": "0.2.0",
+    "serve-static": "^1.10.0"
+  }
+}
