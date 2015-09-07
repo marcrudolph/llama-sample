@@ -19,6 +19,7 @@ logs
 results
 
 npm-debug.log
+node_modules/
 .generator-release
 
 .tmp
@@ -27,6 +28,7 @@ npm-debug.log
 .DS_Store
 .DS_Store?
 build/
+output/
 deploy/
 generated/
 bin/
